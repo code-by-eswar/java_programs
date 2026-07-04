@@ -3,7 +3,7 @@ import java.util.*;
 
 
 public class fibanoci
-{   //method to print fibanoci series
+{   //method to print fibanoci series  with n terms
     public void  fibanociseries(int n)
     {
         int first = 0;
