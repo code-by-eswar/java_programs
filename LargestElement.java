@@ -38,10 +38,10 @@ class LargestElement
     //using streams
      int[] arr3 = {12, 45, 2, 89, 34};
     
-    int max3 = Arrays.stream(arr3)
+    OptionalInt max3 = Arrays.stream(arr3)
               .max()
               .getAsInt();
-    System.out.println(max3);
+    System.out.println(max3.orElse(-1));
 
   }
 }
