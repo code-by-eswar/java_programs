@@ -1,0 +1,38 @@
+import java.util.*;
+
+
+public class ReverseString
+{
+    
+    
+	public static void main(String[] args) {
+		
+/*	String str = "Eswar";
+	String rev = "";
+	for(int i=str.length()-1;i>=0;i--)
+	{
+	    rev+= str.charAt(i);
+	}
+	System.out.println(rev);*/
+	//String builder
+/*	String str = "Eswar";
+	StringBuilder sb = new StringBuilder();
+	for(int i=str.length()-1;i>=0;i--)
+	{
+	    sb.append(str.charAt(i));
+	}
+	System.out.println(sb.toString());
+	
+	*/
+	String name = "amma";
+	String sb = new StringBuilder(name)
+	                   .reverse()
+	                   .toString();
+	 System.out.println(sb);
+	
+	
+	
+	
+	
+	
+	}}
